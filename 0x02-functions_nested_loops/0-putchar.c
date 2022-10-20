@@ -3,10 +3,8 @@
 
 /**
  * main - write a program that start with _putchar and end with newline.
- *
- * that returns: 0
- *
- * Written by Folashade
+ *written by Folashade
+ * Return: 0
  */
 int main(void)
 {
