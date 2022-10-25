@@ -3,8 +3,8 @@
 
 /**
  * print_array - To rint an element of array
- * @n: number of value to be printed
  * @a: array
+ * @n: number of value to be printed
  */
 
 void print_array(int *a, int n)
@@ -15,7 +15,7 @@ void print_array(int *a, int n)
 	{
 		printf("%d", a[t]);
 		if (t != n - 1)
-			printf(",");
+			printf(", ");
 	}
 
 	printf("\n");
