@@ -2,18 +2,11 @@
 
 /**
  * main - Entry point
- * Return: Always 0 
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
-	int intType;
-	float floatType;
-	char charType;
-	double doubleType;
-	long int unsignedType;
-	long long int unsignedintType;
-
 	/* A C program that prints the size of various types on the computer */
 	printf("size of a int: %lu byte(s)\n", sizeof(int));
 	printf("size of a float: %lu byte(s)\n", sizeof(float));
