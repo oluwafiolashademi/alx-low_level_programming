@@ -11,8 +11,8 @@ int main(void)
 	float floatType;
 	char charType;
 	double doubleType;
-	long int UnsignedType;
-	long long int UnsignedintType;
+	long int unsignedType;
+	long long int unsignedintType;
 
 	/* A C program that prints the size of various types on the computer */
 	printf("size of a int: %zu bytes\n", sizeof(intType));
@@ -22,5 +22,5 @@ int main(void)
 	printf("size of a long int: %zu bytes\n", sizeof(unsignedType));
 	printf("size of a long long int: %zu bytes\n", sizeof(unsignedintType));
 
-	return 0;
+	return (0);
 }
