@@ -8,9 +8,14 @@
 int main(void)
 {
 	char lower;
+
+	lower = 'z';
 	/* A program that print alphabets in lowercase */
-	for (lower = 'z'; lower >= 'a'; lower++)
+	while (lower >= 'a')
+	{
 		putchar(lower);
+		lower--;
+	}
 	putchar('\n');
 	return (0);
 }

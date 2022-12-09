@@ -10,9 +10,11 @@ int main(void)
 	char letter;
 	/* A program that print alphabets in lowercase and uppercase */
 	for (letter = 'a'; letter <= 'z'; letter++)
+	{
 		putchar(letter);
-	for (letter = 'A'; letter <= 'Z'; letter++)
+		for (letter = 'A'; letter <= 'Z'; letter++)
 			putchar(letter);
 		putchar('\n');
+	}
 	return (0);
 }
