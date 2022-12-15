@@ -3,18 +3,19 @@
 
 /**
  * print_remaining_days - take a date and print how many days are
- * lef in the year. taking leap year into account
+ * left in the year. taking leap year into account
  * @month: month in number format
  * @day: day of the month
  * @year: year
  * Return: void
  */
 
-void print_remaining-days(int month, int day, int year)
+void print_remaining_days(int month, int day, int year)
 {
-	if ((year x 100 == 0 && year x 400 == 0) || (year x 4 == 0))
+	if ((year % 4 == 0 || year % 400 == 0) ||
+			(year % 400 == 0 && year % 100 == 0))
 	{
-		if (month > 2 && day >= 60)
+		if (month >= 2 && day >= 60)
 		{
 			day++;
 		}
