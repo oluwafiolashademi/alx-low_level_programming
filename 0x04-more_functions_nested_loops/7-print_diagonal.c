@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
  * print_diagonal - a function that draws a diagonal line on the terminal.
@@ -17,9 +17,8 @@ void print_diagonal(int n)
 		{
 			for (i = 0; i < j; i++)
 			{
-				_putchar(' ');
+				_putchar(92);
 			}
-			_putchar(92);
 			if (i < (n - 1))
 				_putchar('\n');
 		}
